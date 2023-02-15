@@ -1,0 +1,145 @@
+@media only screen and (max-width: 888px) {
+    .image {
+        display: none;
+    }
+
+    .heading {
+        margin-top: 5vh;
+    }
+
+    .container {
+        height: 45vh;
+    }
+
+    .box1 {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 7vh;
+    }
+
+    .box1 .intro button {
+        width: 21vw;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3vh;
+        text-align: center;
+    }
+
+    .intro h6 {
+        margin-bottom: 2vh;
+    }
+
+    .profile img {
+        height: 25vh;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    nav{
+        padding: 0 28px;
+    }
+
+    nav .logo img{
+        width: 10vw;
+    }
+    
+    .title {
+        font-size: 6vh;
+    }
+
+    .profile img {
+        height: 25vh;
+        width: auto;
+    }
+
+    .intro h4 {
+        font-size: 4vh;
+    }
+
+    .intro p {
+        width: 67vw;
+    }
+
+    .intro h6 {
+        font-size: 2vh;
+    }
+
+    .box1 .intro button {
+        width: 30vw;
+    }
+
+    .box1 .intro button::after {
+        scale: 1.25;
+        background-color: black;
+        color: white;
+
+    }
+
+    .box1 {
+        padding-top: 6vh;
+    }
+
+    .project {
+        padding: 7vh 27vh;
+    }
+
+    .proj {
+        margin-left: -16vw;
+    }
+
+    .discrip h4 {
+        font-size: 2.5vh;
+    }
+
+    .heading {
+        font-size: 3vh;
+        width: 38vw;
+        height: 7vh;
+    }
+
+    .hamburger{
+        display: block;
+    }
+    .navigation{
+        position: absolute;
+        margin: 0;
+        top: -180%;
+        left: 0;
+        width: 100%;
+        height: fit-content;
+        background-color: #fbaa97;
+        padding: 30px;
+        transition: 0.3s;
+        text-align: center;
+        z-index: -1001;
+    }
+    
+
+
+    .navigation ul{
+        display: block;
+        
+    }
+
+    .navigation ul li{
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .navigation ul li a{
+        padding: 1vh;
+        border-radius: 5vh;
+        font-size: 2.25vh;
+    }
+
+    .navigation.active{
+        top: 70px;
+    }
+}
