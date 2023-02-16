@@ -7,3 +7,6 @@ Here are some qualities of my portfolio
           3. contains my major and minor projects
 
 If you have any suggetions, advice, Guidance. Feel free to contact me
+
+
+visit this portfolio at- https://whimsical-dragon-e7f37a.netlify.app/
